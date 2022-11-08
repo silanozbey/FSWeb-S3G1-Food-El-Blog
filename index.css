@@ -2,6 +2,10 @@
 * {
  font-color: #3C373B;
 }
+.gray_background img {
+  margin-left:8%;
+  width: 80vw;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
@@ -74,14 +78,15 @@ img {
 }
 
  header nav a {
-  margin: 0 10px;
+  margin: 0 auto;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 35px;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
+  text-align: center;
    /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
   background-color:#E79947 ;
 }
